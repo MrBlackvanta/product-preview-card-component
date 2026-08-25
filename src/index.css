@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-green-500: hsl(158, 36%, 37%);
+  --color-green-700: hsl(158, 42%, 18%);
+
+  --color-black: hsl(212, 21%, 14%);
+  --color-grey: hsl(228, 12%, 48%);
+  --color-cream: hsl(30, 38%, 92%);
+  --color-white: hsl(0, 0%, 100%);
+
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-fraunces: "Fraunces", serif;
+}
+
+body {
+  @apply font-montserrat;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+    transition-duration: 0.01ms;
+    scroll-behavior: auto;
+  }
+}
+
+@utility text-preset-1 {
+  @apply font-fraunces text-[2rem] leading-none font-bold tracking-normal;
+}
+
+@utility text-preset-2 {
+  @apply text-sm leading-[110%] font-bold tracking-normal;
+}
+
+@utility text-preset-3 {
+  @apply text-sm leading-[160%] font-medium tracking-normal;
+}
+
+@utility text-preset-4 {
+  @apply text-xs leading-[120%] font-medium tracking-[5px];
+}
+
+@utility text-preset-5 {
+  @apply text-[0.8125rem] leading-[120%] font-medium tracking-normal;
+}
+
+@utility footer-link {
+  @apply rounded-xs font-bold text-green-700;
+  @apply focus-visible:ring-2 focus-visible:ring-green-700 focus-visible:ring-offset-2 focus-visible:ring-offset-green-700 focus-visible:outline-none;
+}
+
+@utility btn-primary {
+  @apply text-preset-2 flex cursor-pointer items-center justify-center gap-2 rounded-lg bg-green-500 px-8 py-4 text-white transition-colors duration-300;
+  @apply hover:bg-green-700;
+  @apply focus-visible:ring-2 focus-visible:ring-green-700 focus-visible:ring-offset-2 focus-visible:outline-none;
+}
