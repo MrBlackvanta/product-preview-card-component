@@ -16,13 +16,12 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot.webp)
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/product-preview-card-component)
 - Live Site URL: [Cloudflare](https://product-preview-card-component.abdelrhman-ahmed8881.workers.dev)
-- Mirror: [Netlify](https://vanta-product-preview-card.netlify.app)
 
 ## My process
 
@@ -58,6 +57,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Author
 
-- UpWork - [Abdelrhman Abdelaal](https://upwork.com/freelancers/~01f0a9479696b61f49)
+- UpWork - [Abdelrhman Abdelaal](https://www.upwork.com/freelancers/mrblackvanta)
 - Frontend Mentor - [@MrBlackvanta](https://www.frontendmentor.io/profile/MrBlackvanta)
-- LinkedIn - [@yourusername](https://www.linkedin.com/in/abdelrhman-vanta/)
+- LinkedIn - [Abdelrhman Abdelaal](https://www.linkedin.com/in/abdelrhman-vanta/)
