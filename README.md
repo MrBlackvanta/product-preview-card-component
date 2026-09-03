@@ -10,31 +10,10 @@ challenge on Frontend Mentor.
 
 ## Built with
 
-- React 19 and Vite
+- React
+- Vite
 - TypeScript
-- Tailwind CSS v4
-- Montserrat and Fraunces from Google Fonts
-
-## Notes
-
-The hero is art-directed, so it's a `<picture>` with two crops. Each source carries its
-own `width`/`height`, because the two variants have different aspect ratios and one set
-of dimensions on the `<img>` would reserve the wrong box for whichever one loses.
-
-Both variants are preloaded from `<head>` with a `media` attribute so the browser only
-fetches the one that matches. The image lives in `public/` rather than being imported,
-because a preload needs a stable URL and Vite fingerprints imported assets.
-
-Converting the two variants from JPEG to WebP cut them roughly 60%, 45KB to 18KB on
-desktop and 29KB to 12KB on mobile.
-
-The struck-through price is `<s>` with an `aria-label`, otherwise a screen reader just
-reads two prices with no indication which one you pay. The cart icon is `aria-hidden`.
-
-Prices go through `Intl.NumberFormat` so the decimals are always right.
-
-Path aliases needed `resolve.tsconfigPaths` in the Vite config. TypeScript's `baseUrl`
-only satisfies the typechecker; the bundler resolves them separately.
+- Tailwind CSS
 
 ## Author
 
