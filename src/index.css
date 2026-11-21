@@ -9,8 +9,8 @@
   --color-cream: hsl(30, 38%, 92%);
   --color-white: hsl(0, 0%, 100%);
 
-  --font-montserrat: "Montserrat", sans-serif;
-  --font-fraunces: "Fraunces", serif;
+  --font-montserrat: "Montserrat Variable", sans-serif;
+  --font-fraunces: "Fraunces Variable", serif;
 }
 
 body {
